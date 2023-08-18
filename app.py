@@ -7,6 +7,7 @@ import plotly.express as px
 # Initializes app variable for project
 
 app = dash.Dash(external_stylesheets=[dbc.themes.PULSE])
+server = app.server
 
 # Import csv data for current US Covid-tracking data
 df = pd.read_csv("./data/national-history.csv")
