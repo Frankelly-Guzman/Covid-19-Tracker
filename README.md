@@ -7,8 +7,10 @@ This is a Plotly Dash project for tracking COVID-19 data in the United States. I
 To run this project on your local machine, you can follow these steps:
 
 1. Clone the repository:
+```bash
 git clone https://github.com/Frankelly-Guzman/Covid-19-Tracker
 cd Covid-19-Tracker
+```
 
 2. Install the required dependencies by running the following command:
 
